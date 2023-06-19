@@ -1,0 +1,51 @@
+#gala{
+    position: fixed;
+    top: 30%;
+    left: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    animation: element 4s infinite;
+}
+@keyframes element{
+    0%{
+        color: chartreuse;
+        transform: scale(1.2);
+
+    }
+    50%{
+        color: blue;
+        transform: scale(1.4);
+    }
+    100%{
+        color: black;
+        transform: scale(1.6);
+    }
+}
+#enter{
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 30px;
+    top: 80%;
+    left: 50%;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    animation: bounce 4s infinite;
+}
+@keyframes bounce{
+    0%{
+        color: greenyellow;
+        transform: scale(1.2);
+    }
+    50%{
+        color: gold;
+        transform: scale(1.4);
+        font-weight: 60px;
+    }
+    100%{
+        color: goldenrod;
+        transform: scale(1.6); 
+    }
+}
